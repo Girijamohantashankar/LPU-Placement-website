@@ -1,0 +1,50 @@
+/* =======================>Desktop screen<================= */
+
+@media (min-width:1200px){
+
+    .navigation-list{
+        display: none;
+    }
+}
+
+
+
+
+/* =======================Tablet============ */
+@media (max-width:850px){
+.navbar{
+    display: none;
+}
+    .student-youtube-videos .col-4,.lpu-recuits{
+        width: 100%;
+    }
+    .inter-row .col-3 .card{
+        width: 30%;
+    }
+    .inter-row .col-3 .card h3{
+        font-size: 14px;
+        width: 70%;
+    }
+    .inter-row .col-3 .card p{
+        font-size: 10px;
+    }
+    .student-youtube-videos .col-4 iframe{
+width: 100%;
+    }
+    .input-text{
+        width: 100%;
+    }
+    .input-text input{
+        max-width: 10%;
+    }
+    .input-text button{
+        max-width: 10%;
+    }
+}
+
+
+/* ===============mobile================= */
+
+@media (max-width: 480px) {
+   
+}
